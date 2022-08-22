@@ -13,7 +13,7 @@ import com.vaadin.flow.router.RouteAlias;
 @Route(value = "inicio", layout = MainLayout.class)
 @RouteAlias(value = "", layout = MainLayout.class)
 public class InicioView extends VerticalLayout {
-
+    
     public InicioView() {
         setSpacing(false);
 
@@ -22,7 +22,7 @@ public class InicioView extends VerticalLayout {
         add(img);
 
         add(new H2("This place intentionally left empty"));
-        add(new Paragraph("It’s a place where you can grow your own UI 🤗"));
+        add(new Paragraph("It’s a place where it is impossible to failed 🤗"));
 
         setSizeFull();
         setJustifyContentMode(JustifyContentMode.CENTER);
